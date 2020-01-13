@@ -3,19 +3,15 @@
   "version": "1.0.0",
   "description": "The Maze Between Us",
   "main": "index.js",
+  "homepage": "https:/nasirwatts.github.io/mazerunners",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nasirwatts/themaze.git"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Nasir Watts",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nasirwatts/themaze/issues"
   },
-  "homepage": "https://github.com/nasirwatts/themaze#readme",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
